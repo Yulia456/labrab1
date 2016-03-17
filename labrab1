@@ -1,0 +1,31 @@
+# labrab1
+<!DOCTYPE HTML> 
+<html> 
+<head> 
+<title>Лабараторная 1</title> 
+</head> 
+<body>
+<script> 
+var a;
+var b;
+var c;
+var s;
+var chislo1 = prompt('Введите a', ''); 
+var chislo2 = prompt('Введите b', ''); 
+a= parseInt(chislo1);
+b= parseInt(chislo2);
+
+if ( a<0 || b<0 ) 
+{
+document.write('Такого треугольника не существует' + "<br>" );
+} 
+else 
+{
+s= 1/2*a*b ;
+c= Math.sqrt(a*a + b*b );
+document.write('Площадь треугольника = ', s + "<br>"  );
+document.write('Гипотенуза =  ', c );
+}
+</script>
+</body> 
+</html> 
